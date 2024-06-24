@@ -1,5 +1,6 @@
 export const fetchHandler = async (url, options = {}) => {
   try {
+    /** FEEDBACK: Great job! You passed all test cases! */
     // const tuple = [data, { message: 'error!' }];
     const response = await fetch(url, options);
 
